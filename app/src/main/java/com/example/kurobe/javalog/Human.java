@@ -6,6 +6,7 @@ package com.example.kurobe.javalog;
 import android.util.Log;
 class Human extends Animal implements Thinkable {
 
+    String hobby;
 
     public Human(String name, int age, String hobby) {
         this.name = name;
